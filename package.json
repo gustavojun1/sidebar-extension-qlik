@@ -1,0 +1,22 @@
+{
+  "name": "sidebar-extension-qlik",
+  "version": "1.0.0",
+  "description": "Extensão do Qlik Sense que renderiza uma sidebar interativa para navegação entre pastas baseado no template do Yoshida Qlik",
+  "main": "YQ_Menu_Compacto.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gustavojun1/sidebar-extension-qlik.git"
+  },
+  "author": "Gustavo Jun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavojun1/sidebar-extension-qlik/issues"
+  },
+  "homepage": "https://github.com/gustavojun1/sidebar-extension-qlik#readme",
+  "dependencies": {
+    "react": "^18.3.1"
+  }
+}
