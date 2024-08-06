@@ -15,6 +15,7 @@
     text-align: center;
     vertical-align: middle;
     font-size: 20px;
+	color: #FFFFFF;
 }
 
 
@@ -25,7 +26,7 @@
 }
 
 #YQ_menu_compacto.main-menu {
-    background: #212121;
+    background: #5C7A96;
     border-right: 1px solid #e5e5e5;
     position: absolute;
     top: 0;
@@ -38,6 +39,7 @@
     transition: width .05s linear;
     -webkit-transform: translateZ(0) scale(1, 1);
     z-index: 1000;
+  	border-radius: 15px;
 }
 
 #YQ_menu_compacto.main-menu>ul {
@@ -81,6 +83,7 @@
     vertical-align: middle;
     width: 190px;
     font-family: 'Titillium Web', sans-serif;
+	color: #FFFFFF;
 }
 
 #YQ_menu_compacto.main-menu>ul.logout {
@@ -163,7 +166,7 @@
 */
 
 #YQ_menu_compacto_Horizontal.main-menu {
-    background: #212121;
+    background: #DE5DAA;
     border-right: 1px solid #e5e5e5;
     position: relative;
     /* top: 0; */
