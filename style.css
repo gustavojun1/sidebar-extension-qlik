@@ -1,0 +1,469 @@
+/* CSS */
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+}
+
+#YQ_menu_compacto .fa-2x {
+    font-size: 2em;
+}
+
+#YQ_menu_compacto .fa {
+    position: relative;
+    display: table-cell;
+    width: 60px;
+    height: 36px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+
+#YQ_menu_compacto.main-menu:hover,
+#YQ_menu_compacto.main-menu.expanded {
+    width: 250px;
+    overflow: visible;
+}
+
+#YQ_menu_compacto.main-menu {
+    background: #212121;
+    border-right: 1px solid #e5e5e5;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: -5px;
+    width: 60px;
+    overflow: hidden;
+    -webkit-transition: width .05s linear;
+    transition: width .05s linear;
+    -webkit-transform: translateZ(0) scale(1, 1);
+    z-index: 1000;
+}
+
+#YQ_menu_compacto.main-menu>ul {
+    margin: 0px 0;
+}
+
+#YQ_menu_compacto.main-menu li {
+    position: relative;
+    display: block;
+    width: 250px;
+}
+
+#YQ_menu_compacto.main-menu li>a {
+    position: relative;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: #999;
+    font-family: arial;
+    font-size: 14px;
+    text-decoration: none;
+    -webkit-transform: translateZ(0) scale(1, 1);
+    -webkit-transition: all .1s linear;
+    transition: all .1s linear;
+
+}
+
+#YQ_menu_compacto.main-menu .nav-icon {
+    position: relative;
+    display: table-cell;
+    width: 60px;
+    height: 36px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+#YQ_menu_compacto.main-menu .nav-text {
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    width: 190px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#YQ_menu_compacto.main-menu>ul.logout {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#YQ_menu_compacto .no-touch .scrollable.hover {
+    overflow-y: hidden;
+}
+
+#YQ_menu_compacto .no-touch .scrollable.hover:hover {
+    overflow-y: auto;
+    overflow: visible;
+}
+
+#YQ_menu_compacto a:hover,
+#YQ_menu_compacto a:focus {
+    text-decoration: none;
+}
+
+#YQ_menu_compacto {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#YQ_menu_compacto ul,
+#YQ_menu_compacto li {
+    outline: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#YQ_menu_compacto.main-menu li:hover>a,
+#YQ_menu_compacto.main-menu li.active>a,
+#YQ_menu_compacto .dropdown-menu>li>a:hover,
+#YQ_menu_compacto.dropdown-menu>li>a:focus,
+#YQ_menu_compacto .dropdown-menu>.active>a,
+#YQ_menu_compacto .dropdown-menu>.active>a:hover,
+#YQ_menu_compacto .dropdown-menu>.active>a:focus,
+#YQ_menu_compacto .no-touch .dashboard-page nav.dashboard-menu ul li:hover a,
+#YQ_menu_compacto .dashboard-page nav.dashboard-menu ul li.active a {
+    color: #fff;
+    background-color: #5fa2db;
+}
+
+#YQ_menu_compacto_area .area {
+    float: left;
+    background: #e2e2e2;
+    width: 60px;
+    height: 100%;
+}
+
+
+#YQ_menu_compacto_Horizontal .fa-2x {
+    font-size: 2em;
+}
+
+#YQ_menu_compacto_Horizontal .fa {
+    position: relative;
+    display: table-cell;
+    width: 60px;
+    height: 36px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+
+/*
+#YQ_menu_compacto_Horizontal.main-menu:hover,
+#YQ_menu_compacto_Horizontal.main-menu.expanded {
+    width: 250px;
+    overflow: visible;
+}
+*/
+
+#YQ_menu_compacto_Horizontal.main-menu {
+    background: #212121;
+    border-right: 1px solid #e5e5e5;
+    position: relative;
+    /* top: 0; */
+    /* bottom: 0; */
+    padding: 15px;
+    height: 28px;
+    /* left: -5px; */
+    width: 100%;
+    overflow: hidden;
+    -webkit-transition: width .05s linear;
+    transition: width .05s linear;
+    -webkit-transform: translateZ(0) scale(1, 1);
+    z-index: 1000;
+}
+
+#YQ_menu_compacto_Horizontal.main-menu>ul {
+    margin: 0px 0;
+	display: flex;
+    float: left;
+}
+
+#YQ_menu_compacto_Horizontal.main-menu li {
+    position: relative;
+    display: block;
+    /*width: 250px;*/
+	width: 35px;
+	float:left;
+	-webkit-transform: translateZ(0) scale(1, 1);
+    -webkit-transition: all .1s linear;
+    transition: all .1s linear;
+}
+
+#YQ_menu_compacto_Horizontal.main-menu li:hover{
+	width: 250px;
+	-webkit-transform: translateZ(0) scale(1, 1);
+    -webkit-transition: all .1s linear;
+    transition: all .1s linear;
+}
+
+
+#YQ_menu_compacto_Horizontal.main-menu li>a {
+    position: relative;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: #999;
+    font-family: arial;
+    font-size: 14px;
+    text-decoration: none;
+    -webkit-transform: translateZ(0) scale(1, 1);
+    -webkit-transition: all .1s linear;
+    transition: all .1s linear;
+
+}
+
+#YQ_menu_compacto_Horizontal.main-menu .nav-icon {
+    position: relative;
+    display: table-cell;
+    width: 60px;
+    height: 36px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+#YQ_menu_compacto_Horizontal.main-menu a:hover .nav-text{
+    display: table-cell;
+    width: 190px;
+	-webkit-transform: translateZ(0) scale(1, 1);
+    -webkit-transition: all .1s linear;
+    transition: all .1s linear;
+	
+}
+
+#YQ_menu_compacto_Horizontal.main-menu .nav-text {
+    position: relative;
+    vertical-align: middle;
+    font-family: 'Titillium Web', sans-serif;
+	display: none;
+    width: 0px;
+	-webkit-transform: translateZ(0) scale(1, 1);
+    -webkit-transition: all .1s linear;
+    transition: all .1s linear;
+	
+}
+
+#YQ_menu_compacto_Horizontal.main-menu>ul.logout {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+/*
+#YQ_menu_compacto_Horizontal .no-touch .scrollable.hover {
+    overflow-x: hidden;
+}
+
+#YQ_menu_compacto_Horizontal .no-touch .scrollable.hover:hover {
+    overflow-x: auto;
+    overflow: visible;
+}
+*/
+
+#YQ_menu_compacto_Horizontal a:hover,
+#YQ_menu_compacto_Horizontal a:focus {
+    text-decoration: none;
+}
+
+#YQ_menu_compacto_Horizontal {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#YQ_menu_compacto_Horizontal ul,
+#YQ_menu_compacto_Horizontal li {
+    outline: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#YQ_menu_compacto_Horizontal.main-menu li:hover>a,
+#YQ_menu_compacto_Horizontal.main-menu li.active>a,
+#YQ_menu_compacto_Horizontal .dropdown-menu>li>a:hover,
+#YQ_menu_compacto_Horizontal.dropdown-menu>li>a:focus,
+#YQ_menu_compacto_Horizontal .dropdown-menu>.active>a,
+#YQ_menu_compacto_Horizontal .dropdown-menu>.active>a:hover,
+#YQ_menu_compacto_Horizontal .dropdown-menu>.active>a:focus,
+#YQ_menu_compacto_Horizontal .no-touch .dashboard-page nav.dashboard-menu ul li:hover a,
+#YQ_menu_compacto_Horizontal .dashboard-page nav.dashboard-menu ul li.active a {
+    color: #fff;
+    background-color: #5fa2db;
+}
+
+
+
+#YQ_menu_compacto_Circular .fa-2x {
+    font-size: 2em;
+}
+
+#YQ_menu_compacto_Circular .fa {
+    position: relative;
+    display: table-cell;
+    width: 60px;
+    height: 36px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+/*
+#YQ_menu_compacto_Circular.main-menu:hover,
+#YQ_menu_compacto_Circular.main-menu.expanded {
+    width: 250px;
+    overflow: visible;
+}
+
+*/
+
+#YQ_menu_compacto_Circular.main-menu {
+    background: #212121;
+    border-right: 1px solid #e5e5e5;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -5px;
+    height: 40px;
+    width: 45px;
+    overflow: hidden;
+    -webkit-transition: width .05s linear;
+    transition: width .05s linear;
+    -webkit-transform: translateZ(0) scale(1, 1);
+    z-index: 1000;
+	padding-left: 14px;
+    padding-top: 1px;
+}
+
+#YQ_menu_compacto_Circular.main-menu:hover {
+	height: 50%;
+	width: 100%;
+	-webkit-transition: width .05s linear;
+    transition: width .05s linear;
+    -webkit-transform: translateZ(0) scale(1, 1);
+	padding-left: 0px;
+    padding-top: 0px;
+}
+
+#YQ_menu_compacto_Circular.main-menu:hover div{
+	display: none;
+}
+
+
+
+#YQ_menu_compacto_Circular.main-menu>ul {
+    margin: 0px 0;
+}
+
+#YQ_menu_compacto_Circular.main-menu li {
+    position: relative;
+    display: block;
+    width: 250px;
+	float: left;
+}
+
+#YQ_menu_compacto_Circular.main-menu li>a {
+    position: relative;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: #999;
+    font-family: arial;
+    font-size: 14px;
+    text-decoration: none;
+    -webkit-transform: translateZ(0) scale(1, 1);
+    -webkit-transition: all .1s linear;
+    transition: all .1s linear;
+
+}
+
+#YQ_menu_compacto_Circular.main-menu .nav-icon {
+    position: relative;
+    display: table-cell;
+    width: 60px;
+    height: 36px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+#YQ_menu_compacto_Circular.main-menu .nav-text {
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    width: 190px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#YQ_menu_compacto_Circular.main-menu>ul.logout {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#YQ_menu_compacto_Circular .no-touch .scrollable.hover {
+    overflow-y: hidden;
+}
+
+#YQ_menu_compacto_Circular .no-touch .scrollable.hover:hover {
+    overflow-y: auto;
+    overflow: visible;
+}
+
+#YQ_menu_compacto_Circular a:hover,
+#YQ_menu_compacto_Circular a:focus {
+    text-decoration: none;
+}
+
+#YQ_menu_compacto_Circular {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#YQ_menu_compacto_Circular ul,
+#YQ_menu_compacto_Circular li {
+    outline: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#YQ_menu_compacto_Circular.main-menu li:hover>a,
+#YQ_menu_compacto_Circular.main-menu li.active>a,
+#YQ_menu_compacto_Circular .dropdown-menu>li>a:hover,
+#YQ_menu_compacto_Circular.dropdown-menu>li>a:focus,
+#YQ_menu_compacto_Circular .dropdown-menu>.active>a,
+#YQ_menu_compacto_Circular .dropdown-menu>.active>a:hover,
+#YQ_menu_compacto_Circular .dropdown-menu>.active>a:focus,
+#YQ_menu_compacto_Circular .no-touch .dashboard-page nav.dashboard-menu ul li:hover a,
+#YQ_menu_compacto_Circular .dashboard-page nav.dashboard-menu ul li.active a {
+    color: #fff;
+    background-color: #5fa2db;
+}
+
+#YQ_menu_compacto_Circular div {
+    width: 35px;
+	height: 5px;
+	background-color: #999;
+	margin: 6px 0;
+}
+
+
+.ocultar {
+	display: none !important;
+}
+
+
+
+
+
