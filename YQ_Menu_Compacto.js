@@ -1,7 +1,6 @@
 /*globals define*/
 define( ["qlik", "jquery", "text!./style.css"], function ( qlik, $, cssContent ) {
   'use strict';
-  
   $( "<style>" ).html( cssContent ).appendTo( "head" );
   
   
@@ -83,7 +82,7 @@ define( ["qlik", "jquery", "text!./style.css"], function ( qlik, $, cssContent )
     
     
     paint: function ( $element, layout ) {
-      
+      	
       var hc = layout.qHyperCube;
       var tipo_menu = '';
       
@@ -104,14 +103,14 @@ define( ["qlik", "jquery", "text!./style.css"], function ( qlik, $, cssContent )
       }
 
 
-
-      // adiciona logo (não está funcionando)
-      
-      //novo_html += "<img src='https://drive.google.com/uc?export=view&id=1nG1GeJtOTtxbY7pT1qVSRjIf7of5MDnV'/>"
-      
-      
-
-
+		novo_html += "<figure style=\"display: flex; justify-content: flex-end;\">"
+		var img = $('<img />').attr({
+			src: "https://res.cloudinary.com/duamrymym/image/upload/v1724249433/logo_fleury_kjoiff.png",
+			title: "Logo"
+		});
+		novo_html += img[0].outerHTML;
+		novo_html += "</figure>"
+	console.log(novo_html)
 
       // declaração da lista de botões
       novo_html +="<ul>";
@@ -142,12 +141,12 @@ define( ["qlik", "jquery", "text!./style.css"], function ( qlik, $, cssContent )
 		
 		
         // verifica se o botão corresponde à seção atual
-        var isSelected = layout.currentSection === hc.qDataPages[0].qMatrix[c][2].qText;
+        var isSelected = layout.qInfo.qId === hc.qDataPages[0].qMatrix[c][2].qText;
         // aplica background diferente se selecionado
         console.log(sectionName + ": " + isSelected)
+		console.log(layout.qInfo.qId)
+		console.log(hc.qDataPages[0].qMatrix[c][2].qText)
         var liStyle = isSelected ? "style='background-color: #FF001A;'" : "";
-
-
 
                 
 		novo_html +="<li " + liStyle + ">";

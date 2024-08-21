@@ -1,6 +1,10 @@
 /* CSS */
 
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+@font-face {
+    font-family: 'NoyhMedium';
+    src: url('./noyh_r-medium.ttf') format('truetype');
 }
 
 #YQ_menu_compacto .fa-2x {
@@ -23,6 +27,7 @@
 #YQ_menu_compacto.main-menu.expanded {
     width: 250px;
     overflow: visible;
+	border-radius: 15px;
 }
 
 #YQ_menu_compacto.main-menu {
@@ -58,7 +63,7 @@
     border-collapse: collapse;
     border-spacing: 0;
     color: #999;
-    font-family: arial;
+    font-family: 'NoyhMedium', sans-serif;
     font-size: 14px;
     text-decoration: none;
     -webkit-transform: translateZ(0) scale(1, 1);
@@ -82,7 +87,7 @@
     display: table-cell;
     vertical-align: middle;
     width: 190px;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'NoyhMedium', sans-serif;
 	color: #FFFFFF;
 }
 
@@ -213,7 +218,7 @@
     border-collapse: collapse;
     border-spacing: 0;
     color: #999;
-    font-family: arial;
+	font-family: 'NoyhMedium', sans-serif;
     font-size: 14px;
     text-decoration: none;
     -webkit-transform: translateZ(0) scale(1, 1);
@@ -244,7 +249,7 @@
 #YQ_menu_compacto_Horizontal.main-menu .nav-text {
     position: relative;
     vertical-align: middle;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'NoyhMedium', sans-serif;
 	display: none;
     width: 0px;
 	-webkit-transform: translateZ(0) scale(1, 1);
@@ -354,6 +359,7 @@
     -webkit-transform: translateZ(0) scale(1, 1);
 	padding-left: 0px;
     padding-top: 0px;
+	border-radius: 15px;
 }
 
 #YQ_menu_compacto_Circular.main-menu:hover div{
@@ -379,7 +385,7 @@
     border-collapse: collapse;
     border-spacing: 0;
     color: #999;
-    font-family: arial;
+    font-family: 'NoyhMedium', sans-serif;
     font-size: 14px;
     text-decoration: none;
     -webkit-transform: translateZ(0) scale(1, 1);
@@ -403,7 +409,7 @@
     display: table-cell;
     vertical-align: middle;
     width: 190px;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'NoyhMedium', sans-serif;
 }
 
 #YQ_menu_compacto_Circular.main-menu>ul.logout {
@@ -466,7 +472,10 @@
 	display: none !important;
 }
 
-
+#YQ_menu_compacto img {
+    height: 80px;
+    border-radius: 15px; 
+}
 
 
 
